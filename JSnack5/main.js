@@ -8,16 +8,14 @@ const n = parseInt(prompt("Inserisci un numero"));
 const array = [];
 let i = 0;
 let y = 0; 
-let number = 0;
 
 while( y < n){
     while(i < 10){
-        number = Math.floor(Math.random() * (100 - 1));
-        array[i] = number;
+        array[i] = Math.floor(Math.random() * (100 - 1));
         i++; 
     }
     console.log("L'array generato numero" + i+1);
-    console.log("è" + array);
+    console.log("è " + array);
     y++;
 }
 

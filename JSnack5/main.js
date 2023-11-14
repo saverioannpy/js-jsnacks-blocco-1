@@ -12,11 +12,12 @@ let number = 0;
 
 while( y < n){
     while(i < 10){
-        number = Math.floor(Math.random() * (100 - 1) + 1);
+        number = Math.floor(Math.random() * (100 - 1));
         array[i] = number;
         i++; 
     }
     console.log("L'array generato numero" + i+1);
     console.log("è" + array);
+    y++;
 }
 
